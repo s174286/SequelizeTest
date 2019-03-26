@@ -1,0 +1,25 @@
+{
+  "name": "dbpurifi",
+  "version": "1.0.0",
+  "description": "simple db app",
+  "main": "app.ts",
+  "scripts": {
+    "start": "node app.ts",
+    "build": "tsc",
+    "dev": "nodemon app.ts"
+  },
+  "author": "Simon",
+  "license": "ISC",
+  "dependencies": {
+    "@types/sequelize": "^4.27.44",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.2.0",
+    "typescript": "^3.3.4000"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
